@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </motion.main>
         <footer className="bg-slate-900 p-4 text-center text-sm">
-          Źródła: CoinGecko, CoinMetrics, Coinglass. Inspiracja: CoinAnk, react-three-fiber, shadcn-ui.
+          Źródła: CoinGecko, CoinMetrics, Coinglass,@Checkmatey-Checonchain,@TomasOnMarkets Inspiracja: Prof. Adam aka Young Finance
         </footer>
       </body>
     </html>
