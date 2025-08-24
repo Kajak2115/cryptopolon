@@ -1,5 +1,6 @@
-'use client';
-import { useState, useEffect } from 'react';
+"use client";
+
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -61,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </motion.main>
         <footer className="bg-slate-900 p-4 text-center text-sm">
-          Źródła: CoinGecko, CoinMetrics, Coinglass. Inspiracja: CoinAnk, react-three-fiber<grok-card data-id="d9b492" data-type="citation_card"></grok-card>, shadcn-ui<grok-card data-id="0cbb61" data-type="citation_card"></grok-card>.
+          Źródła: CoinGecko, CoinMetrics, Coinglass. Inspiracja: CoinAnk, react-three-fiber, shadcn-ui.
         </footer>
       </body>
     </html>
